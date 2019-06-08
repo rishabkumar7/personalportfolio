@@ -9,6 +9,16 @@
 		<title>Rishab Kumar</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141527833-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141527833-1');
+</script>
+
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -76,7 +86,20 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								
+								<form name="contact" netlify>
+									<p>
+										<label>Name <input type="text" name="name" /></label>
+									</p>
+									<p>
+										<label>Email <input type="email" name="email" /></label>
+									</p>
+									<p>
+										<label>Concerns <input type="text" rows="2" cols="25" name="concerns" /></label>	
+									</p>
+									<p>
+										<button type="submit">Send</button>
+									</p>
+								</form>
 								<ul class="icons">
 									<li><a href="https://twitter.com/rishabk7?lang=en" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="https://www.facebook.com/07rishabk" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
